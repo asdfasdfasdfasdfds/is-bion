@@ -1,0 +1,25 @@
+.button-box{
+  z-index: 3;
+}
+
+.button-box a {
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #a1a1a1;
+
+    padding: 6px 25px;
+    border: none;
+    border-bottom: 1px solid #a1a1a1;
+    background-color: transparent;
+    z-index: 3;
+    cursor: pointer;
+  }
+  .button-box a:hover {
+    color: #000;
+    background: #dcdcdc;
+  }
+  .hoverDark:hover {
+    background: #000 !important;
+    color: #dcdcdc !important;
+  }

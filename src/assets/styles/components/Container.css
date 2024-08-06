@@ -1,0 +1,29 @@
+.container-white {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+  }
+
+  .container-white-box {
+    display: grid;
+    gap: 20px;
+    max-width: 700px;
+  }
+  .bold{
+    font-style: italic;
+    text-align: center;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    z-index: 2;
+  }
+  @media screen and (max-width: 600px) {
+    .container-white {
+      padding: 30px 10px;
+    }
+    .container-white-box {
+      gap: 10px;
+    }
+  }

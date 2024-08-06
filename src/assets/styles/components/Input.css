@@ -1,0 +1,16 @@
+input {
+    font-size: 0.4rem;
+    letter-spacing: 1px;
+    text-transform: none;
+    border: none;
+    border-bottom: 1px solid #dfdfdf;
+    padding: 8px 15px;
+    width: 100%;
+    margin: 0 0 20px 0;
+    max-width: 100%;
+    resize: none;
+    outline: none;
+  }
+  input:focus {
+    border-bottom: 1px solid #000;
+  }

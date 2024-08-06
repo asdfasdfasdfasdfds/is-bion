@@ -1,0 +1,4 @@
+export default {
+  hakkinda:
+    "Referans Hukuk Bürosu, Arb. Av. Aysun Kuş ve Av. Ecem Topuz tarafından kurulmuştur.\n\n Ağırlıklı çalışma alanlarımız arasında Ticaret Hukuku ve bu kapsamda Ticari İşletme Hukuku, Şirketler Hukuku, Sigorta Hukuku, Kıymetli Evrak Hukuku ve de bağlantılı mevzuat (Borçlar Hukuku, Sözleşmeler Hukuku vb.), Gayrimenkul Hukuku, İdare Hukuku, İş Hukuku ve İcra İflas Hukuku alanları yer almaktadır. \n\n Ticari hayatın farklı sektörlerinde yer alan öncü firmaların danışmanlığını yürütmekte olan ofisimiz son dönemde Kişisel Verilerin Korunması Hakkındaki Kanun ile gelen yükümlülükler ve değişiklikler konusunda da şirketlere danışmanlık hizmeti vermektedir.\n\n Hukuki danışmanlık ve avukatlık faaliyetlerine devam eden ofisimiz ulusal ve uluslararası platformlarda müvekkillerine zaman, emek ve amaç odaklı hizmet vermeye devam etmektedir.",
+};

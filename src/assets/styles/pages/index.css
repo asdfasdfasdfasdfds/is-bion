@@ -1,0 +1,102 @@
+.home-page-intro {
+  height: 65vh;
+  padding: 0 100px;
+  gap: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.home-page-intro img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.home-page-intro-text {
+  max-width: 800px;
+  line-height: 1.4;
+  font-size: 0.5rem;
+  font-weight: 400;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  z-index: 3;
+}
+.service-and-contact-us {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(475px, 1fr));
+}
+
+.services-point {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 50px 50px;
+  display: grid;
+}
+
+.services-point img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.services-point-box {
+  max-width: 700px;
+  z-index: 3;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.contact-us {
+  padding: 50px;
+  display: grid;
+}
+
+.contact-us-container {
+  min-width: 60%;
+  margin: auto;
+}
+@media screen and (max-width: 600px) {
+  .blog-card-box {
+    padding: 30px 10px;
+  }
+  .home-page-intro {
+    padding: 0 30px;
+  }
+  .home-page-intro-text {
+    display: none;
+  }
+  .service-and-contact-us {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .contact-us {
+    padding: 30px 10px;
+    display: grid;
+  }
+  .services-point {
+    padding: 30px 10px;
+  }
+  .services-point-box {
+    gap: 10px;
+  }
+}

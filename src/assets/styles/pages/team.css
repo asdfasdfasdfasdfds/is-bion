@@ -1,0 +1,26 @@
+.team-container {
+  width: 100%;
+  padding: 70px 70px;
+}
+.team-cards {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+  margin: auto;
+}
+@media screen and (max-width: 900px) {
+  .team-container {
+    padding: 50px 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .team-container {
+    padding: 50px 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .team-cards {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}

@@ -1,0 +1,135 @@
+.team-detail-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 0.25fr 0.75fr;
+  padding: 70px 70px;
+}
+
+.team-detail-image-box {
+  display: flex;
+  justify-content: center;
+}
+
+.team-detail-image {
+  margin-right: 40px;
+}
+
+.team-detail-image img {
+  width: 100%;
+  height: auto;
+}
+
+.team-detail-box-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.team-detail-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-detail-member {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-detail-member-name {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.team-detail-member-status {
+  color: #020a20;
+  letter-spacing: 0.02em;
+  font-size: 0.8rem;
+  line-height: 1.8;
+}
+
+.team-detail-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-detail-contact-title {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+
+.team-detail-contact-address {
+  color: #020a20;
+  font-size: 0.4rem;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+}
+
+.team-detail-content {
+  color: #020a20;
+  font-size: 0.5rem;
+  line-height: 1.8;
+  letter-spacing: 0.02em;
+  margin: 20px 0;
+}
+
+.prev {
+  color: #a1a1a1;
+  font-size: 0.5rem;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+  .team-detail-container {
+    padding: 30px 10px;
+  }
+  .team-detail-contact {
+    margin-top: 10px;
+  }
+  .team-detail-content {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .team-detail-container {
+    padding: 50px 30px;
+    grid-template-columns: 1fr;
+  }
+  .team-detail-image {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+  }
+  .team-detail-box-top {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin: 20px 0;
+  }
+  .team-detail-member-name {
+    text-align: center;
+  }
+
+  .team-detail-member-status {
+    text-align: center;
+  }
+  .team-detail-contact-title {
+    text-align: center;
+  }
+
+  .team-detail-contact-address {
+    text-align: center;
+  }
+  .team-detail-contact {
+    margin-top: 20px;
+  }
+  .prev {
+    margin-top: 20px;
+  }
+}

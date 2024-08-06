@@ -1,0 +1,32 @@
+.blog-detail-container {
+  display: grid;
+}
+.blog-detail-box {
+  margin: auto;
+  max-width: 900px;
+  padding: 1rem;
+}
+.blog-card-image {
+  width: 100%;
+  margin-bottom: 1.4rem;
+}
+.blog-card-image img {
+  width: 100%;
+  height: auto;
+}
+.blog-card-detail-title {
+  color: #020a20;
+  font-size: 1rem;
+  letter-spacing: 0;
+  margin: 5px 0 0;
+  text-align: start;
+  line-height: 1.6;
+  font-weight: 600;
+}
+.blog-card-content {
+  font-size: 0.6rem;
+  color: #030b23b3;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}

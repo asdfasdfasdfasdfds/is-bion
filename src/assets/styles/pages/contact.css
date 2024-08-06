@@ -1,0 +1,80 @@
+.contact-box {
+  display: flex;
+  padding: 50px 70px;
+  gap: 50px;
+  justify-content: center;
+}
+
+.head-office-title {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--primary-color);
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.head-office {
+  margin-top: 30px;
+  width: 40%;
+}
+
+.head-office-location {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 20px;
+}
+
+.head-office-location-icon {
+  width: 100%;
+  height: auto;
+  align-self: center;
+}
+
+.head-office-location-text {
+  font-size: 0.5rem;
+  color: #020a20;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  align-self: center;
+}
+
+.map-box {
+  width: 100%;
+  height: 350px;
+}
+
+.map {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 850px) {
+  .contact-box {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+    gap: 20px;
+  }
+  .head-office {
+    margin-top: 0px;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .head-office-location {
+    grid-template-columns: 15px 1fr;
+  }
+  .head-office {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .head-office {
+    width: 100%;
+  }
+}

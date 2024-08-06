@@ -1,0 +1,37 @@
+.side-bar-list {
+    margin: auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #a1a1a1;
+  }
+
+  .side-bar-list ul li {
+    list-style: none;
+    margin-top: 6px;
+  }
+
+  .side-bar-list ul li a {
+    text-decoration: none;
+    color: #a1a1a1;
+    font-size: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+
+  .side-bar-list ul li a:hover {
+    color: var(--secondary-color);
+  }
+
+  .side-bar-list ul li .active {
+    color: var(--secondary-color);
+  }
+  @media screen and (max-width: 960px) {
+    .side-bar-list ul {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .side-bar-list {
+      padding-bottom: 20px;
+    }
+  }

@@ -1,0 +1,151 @@
+footer {
+    background: #020a20;
+  }
+  .footer-container {
+    margin: auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-areas:
+      "news about services"
+      "social social social";
+    grid-template-columns: 0.8fr 0.8fr 1fr;
+    padding: 50px 50px;
+    gap: 30px;
+  }
+  .footer-news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: news;
+  }
+
+  .footer-news-card-title {
+    display: grid;
+
+    font-size: 0.5rem;
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    color: #fff;
+  }
+
+  .footer-news-card-date {
+    color: #fff;
+    font-size: 0.4rem;
+    text-transform: none;
+    letter-spacing: 2px;
+    line-height: 2.2;
+  }
+
+  .footer-about-us-and-contact {
+    grid-area: about;
+  }
+
+  .footer-about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-about-us a {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .footer-location {
+    display: grid;
+    grid-template-columns: 15px 1fr;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .footer-location-text {
+    font-size: 0.4rem;
+    color: #fff;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  .footer-services {
+    grid-area: services;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-social {
+    grid-area: social;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-text {
+    color: #fff;
+    font-size: 0.4rem;
+    margin-top: 10px;
+    line-height: 1.7;
+  }
+
+  .footer-social {
+    margin-top: 40px;
+  }
+
+  .footer-social span {
+    font-size: 0.4rem;
+    color: #fff;
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+  }
+
+  .footer-services-box {
+    display: flex;
+  }
+
+  .footer-list {
+    font-size: 0.4rem;
+  }
+
+  .footer-list:first-child {
+    padding-right: 15px;
+  }
+
+  .footer-list:last-child {
+    padding-left: 15px;
+  }
+
+  .footer-list li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .footer-list li a {
+    color: #fff;
+  }
+
+  .footer-list li a:hover {
+    color: #a1a1a1;
+  }
+
+  @media screen and (max-width: 900px) {
+    .footer-container {
+      grid-template-areas:
+        "news"
+        "about"
+        "social";
+      grid-template-columns: 1fr;
+      padding: 50px 10px;
+    }
+    .footer-services {
+      display: none;
+    }
+    .footer-location {
+      grid-template-columns: 13px 1fr;
+      gap: 8px;
+    }
+    .footer-social {
+      margin-top: 0px;
+    }
+  }
